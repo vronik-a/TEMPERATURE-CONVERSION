@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+  </head>
+  <body>
+    <h1>TEMPERATURE CONVERSION USING JS</h1>
+  </body>
+
+  <script>
+    // Declaration and initialization of variable
+    const kelvin = 50;
+
+    // Declaration and initialization of variable
+    const celsius = kelvin - 273;
+
+    // Declaration and initialization of variable
+    // Rounding down the value of Fahrenheit using Math.floor so as to get a whole number instead of a decimal one
+    let fahrenheit = Math.floor(celsius * (9 / 5) + 32);
+
+    console.log(`The temperature is ${fahrenheit} degrees fahrenheit.`);
+
+    // Celsius convertion to Newton
+    let newton = Math.floor(celsius * (33 / 10));
+    console.log(`The value of ${celsius} celsius to Newton is ${newton}.`);
+  </script>
+</html>
